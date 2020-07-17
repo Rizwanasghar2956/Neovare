@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="css/inner-style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <!--  For Fonts Amatics SC  -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+
+  <title>Patients</title>
+
+</head>
+
+<body>
+  <!--  Header Section Start Here -->
+  <header class="bg-white">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg  nav-mr">
+        <div class="logo">
+          <img src="images/header-logo-ip.jpg" class="img-fluid">
+        </div>
+
+        <button class="navbar-toggler custom-toggler" type=" button" data-toggle="collapse"
+          data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+
+          <ul class="navbar-nav header-menu">
+            <li class="nav-item  menu-1 ">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item menu-1 ">
+              <a class="nav-link" href="about.html">About US</a>
+            </li>
+            <li class="nav-item menu-1 ">
+              <a class="nav-link" href="providers.html">For Providers</a>
+            </li>
+            <li class="nav-item active menu-1 ">
+              <a class="nav-link active" href="patients.html">For Patients</a>
+            </li>
+            <li class="nav-item menu-1 ">
+              <a class="nav-link" href="#">Our Tests</a>
+            </li>
+            <li class="nav-item menu-1 ">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+
+            <li class="nav-item menu-3">
+              <a class="nav-link" href="#"><i class="fa fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item menu-3">
+              <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item menu-3">
+              <a class="nav-link" href="#"><i class="fa fa-envelope"></i></a>
+            </li>
+            <li class="nav-item menu-3">
+              <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--  Header Section End Here -->
+
+  <!--  Banner Section Start Here -->
+  <section class="banner-patients">
+    <div class="bg-overlay">
+      <div class="container">
+        <h1>FOR PATIENTS</h1>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--  Banner Section End Here -->
+
+  <!--  Content Start  -->
+  <section>
+
+    <!--  Main Tabs For Home And Providers   -->
+    <section class="tabs">
+      <div class="container">
+        <div class="full-page-tab">
+          <button class="pagelinks" onclick="openpage(event, 'home')" id="defaultOpen">HOME</button>
+          <button class="pagelinks" onclick="openpage(event, 'patients')">PATIENTS</button>
+        </div>
+
+        <div id="home" class="full-page-tabcontent">
+          <p>HOME</p>
+        </div>
+
+
+
+        <div id="patients" class="full-page-tabcontent no-padding">
+
+          <div class="inner-tabss d-xl-flex d-md-flex d-col-block">
+            <div class="col-xl-4 col-md-4 col-12 no-padding">
+              <!-- Tabs Start here-->
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'risk-assess')" id="defaultOpennn">Risk Assessment
+                </button>
+                <button class="tablinks" onclick="openCity(event, 'genetic')">Genetic Counselling</button>
+                <button class="tablinks" onclick="openCity(event, 'disease-info')">Disease Info</button>
+                <button class="tablinks" onclick="openCity(event, 'bill-info')">Billing Info</button>
+
+                <div class="need-help">
+                  <h3>NEED HELP</h3>
+                  <p>Speak with a human to filling out a form? call corporate office and we will connect you with a team
+                    member who can
+                    help.</p>
+                  <a href="#" class="phone" style="color: #fff;"><i class="fa fa-volume-control-phone"></i>
+                    (844) neovare 636-8273</a>
+                </div>
+                <a class="download" href="#"><i class="fa fa-file-pdf-o"></i>Download PDF File</a>
+              </div>
+            </div>
+            <!-- Tabs end here-->
+
+
+            <div class="col-xl-8 col-md-8 col-12 no-padding">
+              <!-- tab content strt here-->
+
+              <!--  Risk Content Start Here  -->
+              <div id="risk-assess" class="tabcontent">
+                <h3>RISK ASSESSMENT</h3>
+                <a href="#" class="risk-btn">ASSESS YOUR RISK</a>
+              </div>
+              <!--  Risk Content End Here  -->
+
+              <!--  Genetic Content Start Here  -->
+              <div id="genetic" class="tabcontent">
+                <div class="genetic-meta">
+                  <div class="image-wrap">
+                    <img src="images/genetic-tab-banner.png" class="img-fluid genetic-banner" alt="">
+                  </div>
+                  <h3>GENETIC COUNSELING SERVICES</h3>
+                  <p>If you have done one of Neovare’s genetic tests and have questions about your test results,
+                    schedule an appointment with one of our team of board certified genetic counselors at no extra cost.
+                  </p>
+
+                  <h3 class="genetic-preform-hedng">Request Genetic Counselling</h3>
+
+                  <div class="genetic-form">
+                    <form>
+                      <div class="genetic-fname">
+                        <label for="name" class="gntc-fname-label">NAME</label>
+                        <input type="text" name="fname" class="f-name txt-right" placeholder="First">
+                        <input type="text" name="lname" class="l-name txt-right" placeholder="Last">
+                      </div>
+
+                      <label for="">EMAIL ADDRESS</label>
+                      <input type="email" name="email" class="genetic-mail">
+
+                      <label for="">ADDRESS</label>
+                      <input type="text" name="address" class="genetic-address1 txt-right" placeholder="ADDRESS 1">
+                      <input type="text" name="address" class="genetic-address2 txt-right" placeholder="ADDRESS 2">
+
+                      <div class="genetic-city-state">
+                        <input type="text" name="city" class="genetic-city txt-right" placeholder="CITY">
+                        <input type="text" name="state" class="genetic-state txt-right" placeholder="STATE/PROVINCE">
+                      </div>
+
+                      <div class="genetic-zip">
+                        <input type="text" name="zip" class="genetic-zip txt-right" placeholder="ZIP/POSTAL CODE">
+                      </div>
+
+                      <div class="genetic-country">
+                        <input type="text" name="cntry" class="genetic-country txt-right" placeholder="COUNTRY">
+                      </div>
+
+                      <label for="">NUMBER</label>
+                      <input type="number" name="nmbr" class="number">
+                      <a href="#" class="genetic-form-btn">Submit</a>
+                      <div class="clear"></div>
+
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <!--  Genetic Content End Here  -->
+
+              <!--  Disease Info Kit Content Start Here  -->
+              <div id="disease-info" class="tabcontent">
+                <div class="cancer-meta">
+                  <div class="cancer-image-wrap">
+                    <img src="images/cancer-cauz.jpg" class="img-fluid" alt="">
+                  </div>
+                  <h3>WHAT CAUSES CANCER?</h3>
+                  <p>Cancer is a genetic disease. When a cancerous mutation happens inside the cell's nucleus,
+                    uncontrolled cell division happens, which leads to cancer formation. There are two
+                    different types of genetic mutations according to the originating cell:</p>
+                  <br>
+                  <p class="pt-40"><span>• Germline Mutation:</span> These
+                    are mutations that happen in the egg or sperm inherited from
+                    parents. Since these are the cells that form our entire body, these mutations can be detected in
+                    any body cell.</p>
+                  <br>
+                  <p class="pt-40"><span>• Somatic Mutation:</span> These are mutations that happen during our life span
+                    and
+                    affected a particular type of body cell causing them to become cancerous. These mutations
+                    can only be detected in the cancerous cells.</p>
+                  <br>
+                  <p>A person born with an inherited mutation in certain cell regulating genes would have a higher
+                    risk of developing cancer than someone born without a gene mutation.</p>
+
+                  <div class="cancer-image-bottom">
+                    <img class="img-fluid" src="images/cancer-Mutation.jpg">
+                  </div>
+                </div>
+              </div>
+              <!--  Disease Info Kit End Here  -->
+
+              <!--  Billing Info Content Start Here  -->
+              <div id="bill-info" class="tabcontent">
+                <h3>BILLING INFO</h3>
+                <a href="#" class="bill-financ"><img src="images/pdf-new.png"> FINANCIAL ASSISTANCE POLICY</a>
+                <a href="#" class="bill-fap"><img src="images/pdf-new.png">FAP APPLICATION FORM</a>
+              </div>
+              <!--  Billing Info Content End Here  -->
+
+
+              <!--  Inner Tab Content End Here  -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="clear"></div>
+
+    </section>
+    <!--  Tabs Section End Here  -->
+
+  </section>
+  <!--  Content End  -->
+
+  <!--  Footer Section Start Here  -->
+  <footer class="pt-5">
+    <div class="container">
+      <div class="footer-top d-xl-flex d-lg-flex d-md-flex d-col-block">
+        <div class="col-xl-3 col-md-3 col-12">
+          <h3>ADDRESS:</h3>
+          <p>25 Riverside Dr. #2<br>
+            Pine Brook, NJ 07058</p>
+          <h3>CONTACTS</h3>
+          <p>Phone:844-636-8273<br>Fax:201-599-9066 <br> <a href="#">info@neovare.com</a></p>
+        </div>
+        <div class="col-xl-3 col-md-3 col-12">
+          <h3>Accreditation:</h3>
+          <p>CLIA: 31D1028659<br>
+            CAP: 7186286</p>
+          <h3>PRODUCTS</h3>
+          <p>Comprehensive Hereditary Cancer Panel
+            Organ & Disease Focused Panels</p>
+        </div>
+        <div class="col-xl-3 col-md-3 col-12">
+          <h3>FOR PATIENTS</h3>
+          <p>DISEASE INFO</p>
+          <p>BILLING INFO</p>
+          <p>RISK ASSESSMENT</p>
+          <p>GENETIC COUNSELLING</p>
+        </div>
+        <div class="col-xl-3 col-md-3 col-12">
+          <h3>FOR PROVIDERS</h3>
+          <p>PROVIDER PORTAL</p>
+          <p>ORDER TEST</p>
+          <p>REGISTER KIT</p>
+          <p>REQUEST PICKUP</p>
+        </div>
+      </div>
+
+      <!--  Footer Mid Start Here  -->
+      <div class="footer-mid d-xl-flex d-lg-flex d-md-flex d-col-block align-items-center">
+        <div class="col-xl-6 col-md-6 col-12 d-flex pt-2 pb-3">
+          <img src="images/cap-log.png" class="img-fluid">
+          <img src="images/clia-logo.png" class="img-fluid">
+        </div>
+        <div class="col-xl-3 col-md-1 col-12"></div>
+        <div class="col-xl-3 col-md-5 col-12 footer-icons">
+          <ul class="p-0 m-0 list-style-none d-flex">
+            <li><a href=""><i class="fa fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa fa-envelope"></i></a></li>
+          </ul>
+          <p>CONTACT WITH US ON SOCIAL MEDIA</p>
+        </div>
+      </div>
+    </div>
+    <!--  Footer Bottom Copy Right Section  -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div
+          class="footer-bottom-inner d-xl-flex d-lg-flex d-md-flex d-col-block align-items-center justify-content-between">
+          <div class="col-xl-6 col-md-8 col-12">
+            <p>Copyright @ 2013-2019 NEWOVRA Company S.L.</p>
+          </div>
+          <div class="col-xl-6 col-md-4 col-12 text-xl-right text-col-left">
+            <p class="all-right">All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!--  Footer End Here  -->
+
+
+  <!-- For Full Page Tabs HOME and FOR PROVIDERS  -->
+  <script>
+    function openpage(evt, cityName) {
+      var i, tabcontent, pagelinks;
+      tabcontent = document.getElementsByClassName("full-page-tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      pagelinks = document.getElementsByClassName("pagelinks");
+      for (i = 0; i < pagelinks.length; i++) {
+        pagelinks[i].className = pagelinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+  <!-- For Full Page Tabs HOME and FOR PROVIDERS  -->
+
+
+
+  <!-- For Tabs Providers -->
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpennn").click();
+  </script>
+  <!-- For Tabs Providers End -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script>
+    function rotteflipiu() {
+      var element = document.getElementById("flipror");
+      element.classList.add("mystyle");
+      document.getElementById("prev").style.display = "block";
+      document.getElementById("next").style.display = "none";
+      element.classList.remove("mystyle12");
+    }
+
+    function rotteflipiu1() {
+      var element = document.getElementById("flipror");
+      element.classList.add("mystyle12");
+      document.getElementById("prev").style.display = "none";
+      document.getElementById("next").style.display = "block";
+      element.classList.remove("mystyle");
+    }
+  </script>
+
+  <script>
+    //Accordion Start here for all Providers Tab
+    var accordion = document.getElementsByClassName("accordion-heading");
+    var i;
+
+    for (i = 0; i < accordion.length; i++) {
+      accordion[i].addEventListener("click", function () {
+        this.classList.toggle("active"); // var content=document.getElementsByClassName("accordion-content"); var
+        content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      })
+    }
+    // Accordion End Here for all Providers Tab
+
+    // **************************************************//
+    //Accordion Start here For Providers Portal(Technology)
+    var accordion = document.getElementsByClassName("tech-accordion-heading");
+    var i;
+
+    for (i = 0; i < accordion.length; i++) {
+      accordion[i].addEventListener("click", function () {
+        this.classList.toggle("active"); // var content=document.getElementsByClassName("accordion-content"); var
+        content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      })
+    }
+    // Accordion End Here For Providers Portal(Technology)
+  </script>
+
+
+</body>
+
+</html>

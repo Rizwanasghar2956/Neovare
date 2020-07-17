@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="198" viewBox="0 0 278 198">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2fe0e0;
+      }
+
+      .cls-2 {
+        fill: #a0e583;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 20px;
+        font-family: Gilroy-Light, Gilroy;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_172);
+      }
+    </style>
+    <filter id="Rectangle_172" x="0" y="0" width="278" height="198" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_94" data-name="Group 94" transform="translate(-1373 -1016)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 1373, 1016)">
+      <rect id="Rectangle_172-2" data-name="Rectangle 172" class="cls-1" width="260" height="180" rx="5" transform="translate(9 6)"/>
+    </g>
+    <path id="Rectangle_176" data-name="Rectangle 176" class="cls-2" d="M5,0H255a5,5,0,0,1,5,5V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V5A5,5,0,0,1,5,0Z" transform="translate(1382 1022)"/>
+    <text id="Personalized_services" data-name="Personalized services" class="cls-3" transform="translate(1440 1126)"><tspan x="3.23" y="18">PERSONALIZED </tspan><tspan x="28.55" y="41">SERVICES</tspan></text>
+    <g id="Group_25" data-name="Group 25" transform="translate(1481 1043)">
+      <path id="Path_38" data-name="Path 38" class="cls-4" d="M920.037,63.848h3.42a1.773,1.773,0,0,1,0,3.546h-6.131a1.971,1.971,0,1,0,0,3.941h2.456v1.648a1.971,1.971,0,1,0,3.941,0V71.329a5.714,5.714,0,0,0-.267-11.423h-3.42a1.773,1.773,0,0,1,0-3.546h6.02a1.971,1.971,0,0,0,0-3.941h-2.345v-1.6a1.971,1.971,0,1,0-3.941,0v1.6a5.714,5.714,0,0,0,.266,11.422Z" transform="translate(-890.028 -14.976)"/>
+      <path id="Path_39" data-name="Path 39" class="cls-4" d="M804.031-145.38h0a51.782,51.782,0,0,0-7.826-12.555,58.542,58.542,0,0,0-9.617-9.223l7.359-13.65a2.344,2.344,0,0,0-.433-2.793,9.442,9.442,0,0,0-6.772-3.021,15.483,15.483,0,0,0-5.995,1.562l-.135.055a10.138,10.138,0,0,1-3.279.988,1.7,1.7,0,0,1-.652-.114c-3.6-1.317-6.381-2.133-9.1-2.133-3.49,0-6.468,1.389-9.372,4.371a2.375,2.375,0,0,0-.276,2.949l7.891,11.923a59.616,59.616,0,0,0-9.446,9.087,52.228,52.228,0,0,0-7.828,12.556,42.78,42.78,0,0,0-3.59,17.08,14.45,14.45,0,0,0,14.433,14.433h33.8A14.45,14.45,0,0,0,807.621-128.3,42.784,42.784,0,0,0,804.031-145.38ZM769.774-164.1H782.78a53.043,53.043,0,0,1,9.848,9.262c6.8,8.192,10.245,17.12,10.245,26.539a9.582,9.582,0,0,1-2.812,6.852,9.63,9.63,0,0,1-6.873,2.86h-33.8a9.726,9.726,0,0,1-9.715-9.715c0-9.4,3.447-18.327,10.246-26.537A53.972,53.972,0,0,1,769.774-164.1Zm12.337-4.718h-11.8l-7.332-11.076a7.063,7.063,0,0,1,4.6-1.684c2.054,0,4.38.71,7.472,1.856a6.618,6.618,0,0,0,2.265.391,13.693,13.693,0,0,0,5.232-1.4,11.651,11.651,0,0,1,4.177-1.2,3.947,3.947,0,0,1,2.12.6Z" transform="translate(-744.959 186.623)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="198" viewBox="0 0 278 198">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2fe0e0;
+      }
+
+      .cls-2 {
+        fill: #a0e583;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 20px;
+        font-family: Gilroy-Light, Gilroy;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_171);
+      }
+    </style>
+    <filter id="Rectangle_171" x="0" y="0" width="278" height="198" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_93" data-name="Group 93" transform="translate(-1005 -1016)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 1005, 1016)">
+      <rect id="Rectangle_171-2" data-name="Rectangle 171" class="cls-1" width="260" height="180" rx="5" transform="translate(9 6)"/>
+    </g>
+    <path id="Rectangle_175" data-name="Rectangle 175" class="cls-2" d="M5,0H255a5,5,0,0,1,5,5V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V5A5,5,0,0,1,5,0Z" transform="translate(1014 1022)"/>
+    <text id="Industry_fastest_turn_around_time" data-name="Industry fastest turn around time" class="cls-3" transform="translate(1050 1126)"><tspan x="7.57" y="18">INDUSTRY FASTEST </tspan><tspan x="1.18" y="41">TURN AROUND TIME</tspan></text>
+    <g id="Group_24" data-name="Group 24" transform="translate(965 1200)">
+      <path id="Path_37" data-name="Path 37" class="cls-4" d="M209.331-110.047V-139.39a5.543,5.543,0,0,0-5.537-5.537h-3.6v2.768a2.768,2.768,0,0,1-2.768,2.768,2.768,2.768,0,0,1-2.768-2.768v-2.768h-12.6v2.768a2.768,2.768,0,0,1-2.768,2.768,2.768,2.768,0,0,1-2.768-2.768v-2.768H164.07v2.768a2.768,2.768,0,0,1-2.768,2.768,2.768,2.768,0,0,1-2.768-2.768v-2.768h-3.46a5.543,5.543,0,0,0-5.537,5.537v43.185a5.543,5.543,0,0,0,5.537,5.537h48.722a5.543,5.543,0,0,0,5.537-5.537,2.768,2.768,0,0,1,2.768-2.768,2.768,2.768,0,0,1,2.768,2.768,11.085,11.085,0,0,1-11.073,11.073H155.073A11.085,11.085,0,0,1,144-96.205V-139.39a11.085,11.085,0,0,1,11.073-11.073h3.46v-2.768A2.768,2.768,0,0,1,161.3-156a2.768,2.768,0,0,1,2.768,2.768v2.768h12.457v-2.768A2.768,2.768,0,0,1,179.3-156a2.768,2.768,0,0,1,2.768,2.768v2.768h12.6v-2.768A2.768,2.768,0,0,1,197.428-156a2.768,2.768,0,0,1,2.768,2.768v2.768h3.6a11.085,11.085,0,0,1,11.073,11.073v29.344a2.768,2.768,0,0,1-2.768,2.768,2.768,2.768,0,0,1-2.768-2.768Zm-35.3,9.135c0,.435.376.694.86.692a1.373,1.373,0,0,0,.936-.374l13.068-14.95a2.029,2.029,0,0,0-1.523-3.362h-6.411l5.065-8.166h-9.825L169.827-115.7a2.777,2.777,0,0,0,2.453,4.129h5.561l-3.72,10.311a.847.847,0,0,0-.085.347Zm0,0"/>
+    </g>
+  </g>
+</svg>

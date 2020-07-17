@@ -1,0 +1,1934 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'gilroyextrabold';
+	src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
+		url('../fonts/gilroy-extrabold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'gilroylight';
+	src: url('../fonts/gilroy-light-webfont.woff2') format('woff2'),
+		url('../fonts/gilroy-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+/* My */
+
+
+/* Global for place holder align right Start */
+.txt-right::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	text-align: right;
+}
+
+.txt-right::-moz-placeholder {
+	/* Firefox 19+ */
+	text-align: right;
+}
+
+.txt-right:-ms-input-placeholder {
+	/* IE 10+ */
+	text-align: right;
+}
+
+.txt-right:-moz-placeholder {
+	/* Firefox 18- */
+	text-align: right;
+}
+
+/* Global for place holder align right End*/
+
+
+/***   Css For Inner Pages  ***/
+header {}
+
+header ul li a {
+	color: #000000;
+}
+
+.navbar-nav .menu-1 {
+	color: #000000;
+}
+
+.header-menu li .active {
+	color: #fff;
+	border-radius: 10px;
+	background: #aee378;
+}
+
+/* My */
+
+.logo img {
+	max-width: 170px;
+	width: 100%;
+}
+
+.menu-3 i {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	line-height: 30px;
+	padding-left: 7px;
+	font-size: 18px;
+	background-color: #aee378;
+	color: #979494 !important;
+
+}
+
+.menu-3 i:hover {
+	background-color: #aee378;
+	opacity: 0.7;
+}
+
+.navbar-nav .menu-1 a:hover {
+	opacity: 0.6;
+	color: #fff;
+	border-radius: 10px;
+	background: #aee378;
+}
+
+.nav-item .fa-facebook-f {
+	padding-left: 10px;
+}
+
+
+.navbar-nav .menu-1 a {
+	padding: 10px;
+}
+
+.navbar-nav .menu-2 {
+	padding-left: 13px;
+	padding-right: 10px;
+}
+
+.menu-2 i {
+	color: #fff;
+	padding-top: 9px;
+	font-size: 25px;
+}
+
+/**  Banner Start **/
+.banner {
+	background: url('../images/banner-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.banner-patients {
+	background: url('../images/Patient-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.bg-overlay {
+	background: rgba(170, 169, 218, 0.6);
+}
+
+.banner,
+.banner-patients h1 {
+	padding: 100px 0px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	font-size: 70px;
+	font-weight: 700;
+}
+
+/**  Banner End **/
+
+/**  Content Section Start Here  **/
+
+/******* For Full Page Page ****/
+/* Style the Page tab */
+.full-page-tab {
+	overflow: hidden;
+	border: 0 !important;
+	margin-top: -53px;
+	text-align: center;
+}
+
+/* Style the buttons inside the Page tab */
+.full-page-tab button {
+	background-color: #fff;
+	/* float: left; */
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.full-page-tab button:hover {
+	background-color: #ffffff;
+}
+
+/* Create an active/current Page tablink class */
+.full-page-tab button.active {
+	background-color: #aee378;
+	color: #fff;
+}
+
+/* Style the Page tab content */
+.full-page-tabcontent {
+	display: none;
+	margin-top: 100px;
+	padding: 6px 12px;
+}
+
+/******* For Full Page Page ****/
+
+button.pagelinks:hover {
+	opacity: 0.6;
+	background: #aee378;
+}
+
+button.pagelinks:nth-child(1) {
+	margin-right: -5px;
+}
+
+/***   For Inner Tabs Start  ***/
+/* Style the Inner tab */
+.tab {
+	margin-right: 20px;
+	padding-bottom: 50px;
+}
+
+/* Style the buttons inside the Inner tab */
+.tab button {
+	width: 100%;
+	border: none;
+	outline: none;
+	color: black;
+	display: block;
+	font-size: 17px;
+	cursor: pointer;
+	transition: 0.3s;
+	text-align: left;
+	padding: 22px 16px;
+	background-color: #f5f0e9;
+	border-bottom: 1px solid #fff;
+}
+
+.tab .need-help {
+	padding: 40px;
+	margin-top: 100px;
+	border-radius: 10px;
+	background: #33dddd;
+}
+
+.need-help h3 {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Amatic SC', cursive;
+}
+
+.tab .download {
+	display: block;
+	color: black;
+	padding: 22px 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 17px;
+	margin-top: 30px;
+	border-radius: 8px;
+	background-color: #aee378;
+}
+
+a.download:hover {
+	background: #aee378;
+	opacity: 0.7;
+}
+
+.tab p,
+h3 {
+	color: #fff;
+}
+
+.tab a {
+	color: #aee378;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.tab p i {
+	color: #fff;
+	font-size: 20px;
+	padding-right: 5px;
+}
+
+.tab .phone i {
+	color: #aee378;
+	font-size: 31px;
+	transform: rotate(-70deg);
+}
+
+.tab .download i {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current " Inner tab button" class */
+.tab button.active {
+	background-color: #ffffff;
+	color: #33dddd;
+	font-weight: 700;
+}
+
+/* Style the Inner tab content */
+.tabcontent {
+	/* float: left; */
+	padding: 0px 12px;
+	/* width: 70%; */
+	padding-left: 20px;
+	border-left: none;
+}
+
+.tabcontent h3 {
+	color: #717171;
+	font-size: 50px;
+}
+
+.tabcontent form {
+	/* padding-top: 40px; */
+}
+
+.tabcontent .sign {
+	border-bottom: 2px solid #717171;
+}
+
+.tabcontent .sign h4 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #717171;
+}
+
+.tabcontent .qnty {
+	margin-top: 10px;
+}
+
+.tabcontent input {
+	width: 100%;
+	max-width: 770px;
+	height: 70px;
+	border-radius: 10px;
+	border: 1px solid #717171;
+}
+
+.tabcontent textarea {
+	border-radius: 10px;
+	border: 1px solid #717171;
+}
+
+.tabcontent .new-account {
+	color: gray;
+}
+
+.tabcontent .new-account span {
+	color: #aee378;
+}
+
+/***   provider Portal ***/
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pt-40 {
+	padding-top: 40px;
+}
+
+/***   For Inner Tabs End  ***/
+
+
+.clear {
+	clear: both;
+}
+
+/***  ***/
+/*** Resgs KIT Form ***/
+.kit-fname .fname-label {
+	display: block;
+}
+
+form input {
+	outline: none;
+}
+
+form label {
+	color: #717171;
+}
+
+form input.f-name {
+	width: 100%;
+	padding: 10px;
+	max-width: 335px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+form input.l-name {
+	padding: 10px;
+	max-width: 335px;
+	display: inline-block;
+}
+
+.rkit-address1 {
+	margin-bottom: 15px;
+}
+
+.city,
+.state {
+	width: 100%;
+	max-width: 360px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.city input.city {
+	margin: 0;
+	padding: 10px;
+	max-width: 360px;
+	display: inline-block;
+}
+
+.state {
+	margin-left: 20px;
+	max-width: 320px;
+}
+
+
+.country,
+.zip {
+	width: 100%;
+	max-width: 360px;
+	display: inline-block;
+}
+
+.zip {
+	margin-right: 20px;
+	max-width: 320px;
+}
+
+input.zip,
+input.state {
+	margin: 0;
+	padding: 10px;
+	max-width: 320px;
+	display: inline-block;
+}
+
+.sp-inst {
+	width: 100%;
+	max-width: 770px;
+	height: 180px;
+	outline: none;
+}
+
+a.txtarea-btn {
+	float: right;
+	color: #fff;
+	margin-top: 40px;
+	padding: 22px 62px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background: #aee378;
+	text-decoration: none;
+}
+
+a.txtarea-btn:hover {
+	opacity: 0.7;
+}
+
+/*** Resgs KIT Form ***/
+
+
+/***  Genetic Content Form  Start ***/
+.genetic-form input {
+	outline: none;
+}
+
+.genetic-banner {
+	margin-bottom: 40px;
+}
+
+.genetic-meta h3 {
+	font-size: 40px;
+}
+
+.genetic-preform-hedng {
+	margin-top: 50px;
+}
+
+.genetic-form label {
+	color: #717171;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.gntc-fname-label {
+	display: block;
+}
+
+.genetic-form .genetic-fname .f-name {
+	width: 100%;
+	padding: 10px;
+	max-width: 335px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.genetic-fname input.l-name {
+	padding: 10px;
+	max-width: 335px;
+	display: inline-block;
+}
+
+.genetic-address1 {
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+
+.genetic-address2 {
+	padding: 10px;
+}
+
+
+.genetic-city-state input.genetic-state {
+	padding: 10px;
+	width: 100%;
+	max-width: 335px;
+	display: inline-block;
+}
+
+input.genetic-city {
+	width: 100%;
+	max-width: 335px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.genetic-zip,
+.genetic-country {
+	margin-top: 15px;
+}
+
+input.genetic-country,
+input.genetic-zip {
+	padding: 10px;
+}
+
+a.genetic-form-btn {
+	float: right;
+	color: #fff;
+	margin-top: 40px;
+	font-weight: 700;
+	padding: 22px 62px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background: #aee378;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a.genetic-form-btn:hover {
+	opacity: 0.7;
+}
+
+/***  Genetic Content Form End ***/
+
+
+
+
+/**   Accordian Kit TAb ***/
+.accordion-heading {
+	width: 100%;
+	border: none;
+	margin: 5px 0;
+	padding: 18px;
+	outline: none;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.4s;
+	max-width: 770px;
+	text-align: left;
+	line-height: 43px;
+	border-radius: 10px;
+	background-color: #33dddd;
+}
+
+.accordion-heading:hover {
+	outline: none;
+	background-color: #aee378;
+}
+
+.accordion-heading:after {
+	content: '\002B';
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	background: #aee378;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.accordion-heading.active:after {
+	content: "\2212";
+}
+
+.accordion-heading.active {
+	background: #33dddd;
+}
+
+.accordion-content {
+	padding: 0 18px;
+	background-color: white;
+	overflow: hidden;
+	display: none;
+}
+
+/**   Accordian Kit TAb End***/
+
+/**   Accordian  Providers Portal TAb Start***/
+.no-padding {
+	padding: 0;
+}
+
+
+.tabcontent .portal-image {
+	padding: 100px 0;
+}
+
+.tech-accordion-heading {
+	color: #000;
+	width: 100%;
+	border: none;
+	margin: 5px 0;
+	outline: none;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 600;
+	text-align: left;
+	transition: 0.4s;
+	max-width: 770px;
+	line-height: 43px;
+	border-radius: 10px;
+	background-color: #f5f0e9;
+	padding: 18px 20px 18px 40px;
+}
+
+.tech-accordion-heading:hover {
+	background-color: #aee378;
+	outline: none;
+}
+
+.tech-accordion-heading:after {
+	content: '\002B';
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	background: #5b8c51;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.tech-accordion-heading.active:after {
+	content: "\2212";
+	background: #aee378;
+}
+
+.tech-accordion-heading.active {
+	background: #33dddd;
+	color: #fff;
+	outline: none;
+}
+
+.tech-accordion-content {
+	padding: 0 18px;
+	background-color: white;
+	overflow: hidden;
+	display: none;
+}
+
+.tech-accordion-content h3 {
+	font-size: 25px;
+}
+
+.potl-tech-heading {
+	padding-top: 150px;
+}
+
+.tech-accordion-content p.meet-or-not {
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0;
+	padding-left: 50px;
+}
+
+.tech-accordion-content p {
+	color: #545454;
+}
+
+
+/**   Accordian  Providers Portal TAb End***/
+
+
+/***************************************************/
+/*		For Patients	*/
+/***************************************************/
+
+/**   Accordian  PATIENTS WHOLE TAB START***/
+.risk-btn {}
+
+.risk-btn:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #33dddd;
+}
+
+.bill-fap,
+.bill-financ,
+.risk-btn {
+	width: 100%;
+	max-width: 340px;
+	height: 80px;
+	display: block;
+	padding: 0 20px;
+	color: #000000;
+	margin-top: 40px;
+	line-height: 80px;
+	/* text-align: center; */
+	border-radius: 10px;
+	background: #aee378;
+	text-decoration: none;
+
+}
+
+a.bill-financ img {
+	padding-right: 15px;
+}
+
+a.bill-fap img {
+	padding-right: 15px;
+}
+
+.bill-fap:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #33dddd;
+}
+
+.bill-financ:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #33dddd;
+}
+
+.cancer-meta .cancer-image-wrap {
+	padding-bottom: 50px;
+}
+
+.cancer-image-bottom {
+	padding: 100px 0;
+}
+
+.cancer-meta h3 {
+	font-size: 50px;
+	padding-bottom: 30px;
+}
+
+.cancer-meta p {
+	font-size: 18px;
+	color: #717171;
+}
+
+.cancer-meta p span {
+	font-size: 20px;
+	font-weight: 700;
+	color: #717171;
+}
+
+/**   Accordian  Providers Portal TAb End***/
+
+
+/**  Content Section End Here  **/
+
+/*** Footer Start Here For PC LG Screen **/
+
+footer {
+	background: #33dddd;
+	color: #fff;
+}
+
+.footer-top a {
+	color: #fff;
+}
+
+.footer-mid .footer-icons ul {
+	list-style-type: none;
+}
+
+.footer-mid .footer-icons ul li {
+	padding: 0 10px;
+}
+
+.footer-mid .footer-icons i {
+	color: #000;
+	font-size: 17px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #fff;
+	line-height: 40px;
+}
+
+.footer-mid .footer-icons ul li:nth-child(1) {
+	padding: 0 10px 0 0;
+}
+
+.footer-icons i:hover {
+	background-color: #cdde5f;
+}
+
+.footer-icons p {
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.footer-bottom {
+	background-color: #09a7a7;
+}
+
+.footer-bottom p {
+	padding-top: 16px;
+}
+
+/*** Footer end Here For PC LG Screen **/
+
+/*** Responsive **/
+
+
+@media screen and (min-width: 180px) and (max-width: 767px) {
+
+	.menu-2,
+	.menu-3 {
+		display: none;
+	}
+
+	.icon {
+		padding-right: 0px;
+		text-align: left !important;
+	}
+
+	.custom-toggler.navbar-toggler {
+		border-color: #000;
+	}
+
+	.custom-toggler.navbar-toggler .icon {
+		color: #000;
+	}
+
+	.custom-toggler .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+
+	.menu-1 {
+		background: #222;
+	}
+
+	.menu-1 a {
+		font-size: 18px;
+		color: #fff;
+	}
+
+	.nav-mr {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	.col-bg {
+		margin-top: 20px;
+		/* margin-left: 15px;
+		margin-right: 15px; */
+	}
+
+	.content {
+		margin-right: 0;
+	}
+
+	.arrow-2 img {
+
+		left: 20px;
+		position: relative;
+
+	}
+
+	.text-1 h1 {}
+
+	.text-2 h1 {
+		font-size: 25px !important;
+	}
+
+	.text-3 h1 {
+		font-size: 25px !important;
+	}
+
+	.text-5 {
+		padding-top: 50px !important;
+	}
+
+	.rw-3 {
+		padding: 0 !important;
+	}
+
+	.text-1 h1 span {}
+
+
+	.navbar-nav .menu-1 {
+		font-size: 9px;
+	}
+
+	.navbar-light .navbar-toggler {
+		background-color: rgba(255, 255, 255, .99) !important;
+		border-color: rgba(255, 255, 255, .99);
+		position: absolute;
+		right: 0;
+	}
+
+
+	.logo-11 {
+		text-align: left;
+		padding-top: 10px;
+	}
+
+	.banner-patients h1 {
+		font-size: 24px;
+	}
+
+	.sidebar-tabs {
+		padding: 0;
+	}
+
+	.tab .need-help {
+		padding: 20px;
+		margin-top: 50px;
+	}
+
+	.full-page-tabcontent {
+		margin-top: 50px;
+	}
+
+	.tab {
+		margin: 0;
+	}
+
+	.tabcontent {
+		padding: 0;
+		margin-top: 30px;
+	}
+
+	.tabcontent h3 {
+		font-size: 20px;
+	}
+
+	.bill-fap,
+	.bill-financ,
+	.risk-btn {
+		max-width: 270px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	/**** Accordion For Providers Portal under Technology ***/
+	.tech-accordion-heading,
+	.accordion-heading {
+		padding: 8px;
+		font-size: 13px;
+	}
+
+	.tech-accordion-heading:after,
+	.accordion-heading:after {
+		width: 25px;
+		height: 25px;
+		line-height: 22px;
+		margin-top: 6px;
+	}
+
+	.tech-accordion-content p.meet-or-not {
+		font-size: 12px;
+		padding-left: 0;
+	}
+
+	.tech-accordion-content p span {
+		font-size: 16px !important;
+	}
+
+	/**** Accordion For Providers Portal under Technology ***/
+
+	/** Register Kit Form**/
+	form input.l-name {
+		margin: 15px 0;
+	}
+
+	.state {
+		margin: 0;
+	}
+
+	.sp-inst {
+		width: 100%;
+		max-width: 290px;
+		height: 180px;
+		outline: none;
+	}
+
+	.kit-fname input.f-name {
+		margin: 0;
+	}
+
+	.zip {
+		margin-right: 0;
+	}
+
+	/** Register Kit Form**/
+
+
+	/** Bill info tab butn icon **/
+	.bill-fap,
+	.bill-financ {
+		max-width: 270px;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	a.bill-financ img {
+		width: 40px;
+	}
+
+	a.bill-fap img {
+		width: 40px;
+	}
+
+
+	/** Bill info **/
+
+	.cancer-image-wrap {
+		padding-top: 50px;
+	}
+
+	/** Patients Genetic Tabs Start**/
+	.genetic-city-state input.genetic-state {
+		margin-top: 10px;
+	}
+
+	/** Patients Genetic Tabs End **/
+	.special-arrow {
+		text-align: right;
+		position: relative;
+		top: 20px !important;
+		right: 160px !important;
+	}
+
+	.text-11 p {
+		padding: 0 !important;
+	}
+
+	.footer-icons i {
+		font-size: 30px !important;
+	}
+
+	.footer-mid img {
+		text-align: left;
+		width: 120px;
+		height: 70px;
+	}
+
+	.text-13 h2 {
+		font-size: 14px !important;
+	}
+
+	.footer-text h2 {
+		font-size: 14px !important;
+	}
+
+	.footer-icons {
+		padding: 15px;
+	}
+
+	.footer-text h2 span {
+		padding: 0 !important;
+	}
+
+	p.all-right {
+		margin: 0;
+		padding-bottom: 10px;
+	}
+
+}
+
+
+/********* Tablets Start *****/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.navbar-light .navbar-toggler {
+		background-color: rgba(255, 255, 255, .99) !important;
+		border-color: rgba(255, 255, 255, .99);
+	}
+
+	.menu-2,
+	.menu-3 {
+		display: none;
+	}
+
+	.menu-1 {
+		background: #222;
+	}
+
+	.menu-1 a {
+		font-size: 18px;
+		color: #fff;
+	}
+
+	.nav-mr {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	/*****************************************************   ********************************* **/
+	/*****************************************************   ********************************* **/
+
+	.custom-toggler.navbar-toggler {
+		border-color: #000;
+	}
+
+	.custom-toggler.navbar-toggler .icon {
+		color: #000;
+	}
+
+	.custom-toggler .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+
+	.tab .need-help {
+		padding: 20px 10px;
+	}
+
+	.tab a {
+		font-size: 16px;
+	}
+
+	.tabcontent h3 {
+		font-size: 25px;
+	}
+
+	/****** For Providers Form ****/
+	form input.f-name {
+		width: 100%;
+		max-width: 100%;
+	}
+
+
+	form input.l-name {
+		width: 100%;
+		margin-top: 15px;
+		max-width: 100%;
+	}
+
+	.state {
+		margin-left: 0px;
+		max-width: 100%;
+	}
+
+	.city {
+		max-width: 100%;
+	}
+
+	.city input.city {
+		max-width: 100%;
+	}
+
+	.zip {
+		margin-right: 0px;
+		max-width: 100%;
+	}
+
+	input.zip,
+	input.state {
+		margin: 0;
+		padding: 10px;
+		max-width: 100%;
+	}
+
+	.country {
+		max-width: 100%;
+	}
+
+	.accordion-heading {
+		padding: 10px 15px;
+	}
+
+
+	/*** For Providers START***/
+	.tech-accordion-heading {
+		padding: 10px 15px;
+	}
+
+	.tech-accordion-content p.meet-or-not {
+		padding-left: 25px;
+		font-size: 16px;
+	}
+
+	/*** For Providers END***/
+
+	/*****   Providers Form End   *****/
+
+	/*****   Patients Form Start   *****/
+	.genetic-meta h3 {
+		font-size: 25px;
+	}
+
+	.genetic-form label {
+		font-size: 16px;
+	}
+
+	.genetic-form .genetic-fname .f-name {
+		max-width: 100%;
+	}
+
+	.genetic-form .genetic-fname .l-name {
+		max-width: 100%;
+	}
+
+	input.genetic-city {
+		max-width: 100%;
+	}
+
+	.genetic-city-state input.genetic-state {
+		max-width: 100%;
+		margin-top: 10px;
+	}
+
+	.cancer-meta h3 {
+		font-size: 25px;
+	}
+
+	/*****   Patients Form End   *****/
+	/*****************************************************   ********************************* **/
+	/*****************************************************   ********************************* **/
+
+
+	.arrow-1 img {
+		left: 220px !important;
+	}
+
+	.special-arrow {
+		top: 0 !important;
+	}
+
+	.content {
+		margin-right: 0;
+	}
+
+	.text-11 h3 {
+		font-family: 'gilroyextrabold';
+		color: #ffff;
+	}
+
+	.heading h1 {
+		padding-top: 160px !important;
+	}
+
+	.pt-65 {
+		padding-top: 70px !important;
+	}
+
+	.pt-25 {
+		padding-top: 23px !important;
+	}
+
+	.next {
+		margin-top: 200px !important;
+	}
+
+	.prev {
+		left: 80px !important;
+		margin-top: 260px !important;
+	}
+
+	.patient-img img {
+		max-width: 300px;
+		width: 100%;
+	}
+
+
+	.ft-copy-right h2 span {
+		padding-left: 70px !important;
+	}
+
+	footer h3 {
+		font-size: 20px;
+	}
+
+}
+
+/********* Tablets End***/
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		/* padding: 0px; */
+	}
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+	.navbar-nav .menu-1 {
+		padding-left: 10px;
+		font-size: 9px;
+		padding-top: 8px;
+	}
+
+	.pt-65 {
+		padding-top: 47px !important;
+	}
+
+
+	/*** For Patients START***/
+	.genetic-meta h3 {
+		font-size: 35px;
+	}
+
+	.genetic-form .genetic-fname .f-name {
+		max-width: 100%;
+	}
+
+	.genetic-form .genetic-fname .l-name {
+		max-width: 100%;
+		margin-top: 15px;
+	}
+
+	input.genetic-city {
+		max-width: 100%;
+	}
+
+	.genetic-city-state input.genetic-state {
+		margin-top: 15px;
+		max-width: 100%;
+	}
+
+	.city {
+		max-width: 100%;
+	}
+
+	.city input.city {
+		max-width: 100%;
+	}
+
+	.zip {
+		margin-right: 0px;
+		max-width: 100%;
+	}
+
+	.state {
+		max-width: 100%;
+		margin-left: 0;
+	}
+
+	input.zip,
+	input.state {
+		margin: 0;
+		padding: 10px;
+		max-width: 100%;
+	}
+
+	.country {
+		max-width: 100%;
+	}
+
+	/*** For Patients END***/
+
+	/*** For Providers Start***/
+	form input.f-name {
+		max-width: 100%;
+		margin-bottom: 15px;
+	}
+
+	form input.l-name {
+		max-width: 100%;
+	}
+
+
+	/*** For Providers end***/
+
+}
+
+
+
+
+
+/*****************************************************************************************************/
+/*****************************************************************************************************/
+/****************************************************************************************************/
+/****  About Page Css Start Here ****/
+
+/***   Self Risk Section Start***/
+.self-risk {
+	padding: 70px 0 50px;
+}
+
+.self-risk h2 {
+	color: #717171;
+}
+
+.self-risk .self-risk-meta {
+	padding-bottom: 40px;
+}
+
+.self-risk .self-risk-meta p {
+	padding-right: 35px;
+}
+
+.self-risk .self-risk-thumb img {
+	width: 100%;
+	min-height: 465px;
+}
+
+.self-risk-thumb .last-img img {
+	padding-right: 50px;
+}
+
+/***   Self Risk Section End***/
+
+
+
+/***   Testimonials Section Start***/
+
+.testimonial {
+	background: url("../images/testimolias-bg.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 50px 0;
+}
+
+.testimonial .testimonials-inner {
+	text-align: center;
+}
+
+.testimonial h3 {
+	font-size: 48px;
+	color: #33dddd;
+}
+
+
+
+/*********************************************************************/
+/*********************************************************************/
+/*********************************************************************/
+
+
+.testimonial-slider {
+	max-width: 50%;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.testimonial-slider .slider-nav {
+	display: flex;
+	justify-content: center;
+}
+
+
+.slick-slide img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	/* font-size: 30px !important; */
+	color: #000000 !important;
+	font-weight: 900 !important;
+	line-height: 38px !important;
+}
+
+.slick-next:before {
+	content: '>' !important;
+	position: absolute;
+	transform: translateY(-50%);
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid #000000;
+	z-index: 1;
+}
+
+.slick-prev:before {
+	content: '<' !important;
+	position: absolute;
+	transform: translateY(-50%);
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: 2px solid #000000;
+	z-index: 1;
+}
+
+.slick-prev {
+	left: -60px !important;
+}
+
+/*
+
+.slick-slide {
+	opacity: 0.2;
+}
+
+.slick-current {
+	opacity: 1;
+} */
+
+/***    ***/
+
+
+/*********************************************************************/
+/*********************************************************************/
+
+/***   Testimonials Section End***/
+
+
+/***   NEO Providers Section Start***/
+.neo-provider {
+	background: #33dddd;
+	padding: 60px;
+}
+
+.neo-provider-inner {
+	text-align: center;
+}
+
+.neo-provider-inner img {
+	padding-bottom: 50px;
+}
+
+.neo-provider h3 span {
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.neo-provider h3 {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+/***   NEO Providers Section End***/
+
+/***   featured Section Start***/
+.featured {
+	padding: 90px 0 0 0;
+	background: #f8f8f7;
+}
+
+.featured-inner {}
+
+.featured-thumb-cl {
+	margin: 0;
+	padding: 0;
+}
+
+.featured-thumb {
+	text-align: right;
+}
+
+.featured-thumb img {
+	max-width: 500px;
+	width: 100%;
+	height: 530px;
+}
+
+.featured-thumb .smal-img {
+	text-align: left;
+	margin-top: -50px;
+	padding-left: 150px;
+}
+
+.featured-thumb .smal-img img {
+	width: 100%;
+	height: 100px;
+	max-width: 150px;
+	border-radius: 10px;
+}
+
+.featured-meta-cl {
+	padding: 0;
+	margin: 0;
+	margin-left: -90px;
+	margin-top: 70px;
+}
+
+.featured-meta {
+	padding: 80px 50px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 3px 3px 13px -4px;
+}
+
+.featured-meta h3 {
+	color: #717171;
+	font-size: 45px;
+}
+
+.featured-meta h3 span {
+	color: #33dddd;
+}
+
+.featured-meta p {
+	padding-top: 50px;
+}
+
+.featured-meta .progres-bar p {
+	margin-bottom: 15px;
+}
+
+.featured-meta .progres-bar .progress-bar {
+	background: #33dddd;
+
+}
+
+/***   featured Section End***/
+
+
+/***   Meet The Team Section Start***/
+.team {
+	padding: 50px 0;
+}
+
+.team-heading {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.team-heading p {}
+
+.team-heading h3 {
+	font-size: 48px;
+	color: #717171;
+}
+
+
+.team-member {}
+
+.team-member .img-wrap img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.member-meta {
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto;
+	margin-top: -30px;
+	position: relative;
+	border-radius: 10px;
+	background: #fff;
+	padding: 10px;
+	text-align: center;
+	box-shadow: 3px 3px 13px -4px;
+}
+
+.member-meta p {
+	padding-top: 20px;
+	font-size: 12px;
+}
+
+.member-meta h3 {
+	font-size: 16px;
+	color: #000000;
+}
+
+.member-meta h3 span {
+	font-weight: 900;
+}
+
+.social-links {}
+
+.social-links ul {
+	list-style-type: none;
+}
+
+.social-links ul li {
+	padding: 10px;
+}
+
+.social-links ul li a {}
+
+.social-links ul li a i {
+	color: #717171;
+	font-size: 17px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #f5f0e9;
+	line-height: 40px;
+}
+
+.social-links ul li a i:hover {
+	background-color: #33dddd;
+	color: #fff;
+}
+
+/***   Meet The Team Section End***/
+
+
+/***   Quality Product Section Start***/
+.quality-product {
+	background: #f8f8f7;
+	padding: 60px;
+	text-align: center;
+}
+
+.quality-product h3 {
+	font-size: 54px;
+	color: #717171;
+	font-weight: 300;
+}
+
+.quality-product p {
+	color: #33dddd;
+}
+
+.quality-product .btn-wrape {
+	padding-top: 40px;
+}
+
+.quality-product .btn-wrape a {
+	color: #000000;
+	padding: 14px 16px;
+	display: inline-block;
+	background: #cdde5f;
+	text-decoration: none;
+	border-radius: 7px;
+}
+
+/***   Quality Product Section End***/
+
+/****  About Page Responsive For Mobile Css Start Here ****/
+@media screen and (min-width: 180px) and (max-width: 767px) {
+
+	/** Self risk Section**/
+	.self-risk {
+		padding: 50px 0 50px;
+	}
+
+	.self-risk .self-risk-meta p {
+		padding-right: 0px;
+	}
+
+	.self-risk .self-risk-thumb img {
+		min-height: 250px;
+	}
+
+	.self-risk-thumb .last-img img {
+		padding-right: 0px;
+	}
+
+	/** Self risk Section**/
+
+	/** Testimonial Section**/
+	.testimonial-slider {
+		max-width: 100%;
+	}
+
+	.testimonial h3 {
+		font-size: 25px;
+	}
+
+	button.slick-next.slick-arrow,
+	button.slick-prev.slick-arrow {
+		display: none !important;
+	}
+
+	/** Testimonial Section**/
+
+	/** Neo Providers Section**/
+	.neo-provider {
+		padding: 20px;
+	}
+
+	.neo-provider h3 {
+		font-size: 25px;
+	}
+
+	.neo-provider h3 span {
+		font-size: 26px;
+	}
+
+	/** Neo Providers Section**/
+
+
+	/** Feactured Section**/
+	.featured-thumb-cl {
+		padding: 10px;
+	}
+
+	.featured-thumb img {
+		height: 300px;
+	}
+
+	.featured-thumb .smal-img {
+		padding-left: 90px;
+	}
+
+	.featured-meta-cl {
+		margin-left: 0;
+		padding: 10px;
+		margin-top: 30px;
+	}
+
+	.featured-meta {
+		padding: 30px 20px;
+	}
+
+	.featured-meta h3 {
+		font-size: 25px;
+	}
+
+	/** Feactured Section**/
+
+	/** MEET TEAM Section**/
+	.team-heading h3 {
+		font-size: 25px;
+	}
+
+	.member-meta {
+		max-width: 260px;
+		margin-bottom: 20px;
+	}
+
+	.social-links {
+		display: inline-block;
+	}
+
+	/** MEET TEAM Section**/
+
+	/** Quality Product Section**/
+	.quality-product {
+		padding: 30px 0;
+	}
+
+	.quality-product h3 {
+		font-size: 25px;
+	}
+
+	.quality-product .btn-wrape {
+		padding-top: 10px;
+	}
+
+
+	/** Quality Product Section**/
+
+
+
+
+
+}
+
+/****  About Page Responsive For Mobile Css End Here ****/
+
+
+/****  About Page Responsive For Tablet Css Start Here ****/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+	/** Self risk Section**/
+	.self-risk .self-risk-thumb img {
+		min-height: 285px;
+	}
+
+	/** Self risk Section**/
+
+	/**  Featured Section **/
+	.featured-thumb .smal-img {
+		padding-left: 60px;
+	}
+
+	.featured-thumb-cl {
+		margin-left: 30px;
+	}
+
+	.featured-meta-cl {
+		margin-left: -60px;
+		margin-top: 50px;
+	}
+
+	.featured-meta {
+		padding: 40px 25px;
+	}
+
+	/**  Featured Section **/
+
+	/**  MEET THE TEAM  Section **/
+	.member-meta {
+		max-width: 270px;
+	}
+
+	.social-links {
+		text-align: center;
+		display: inline-block;
+	}
+
+	/**  MEET THE TEAM  Section **/
+
+}
+
+/****  About Page Responsive For Tablet Css End Here ****/
+
+/****  About Page Responsive For Desktop Css Start Here ****/
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+	/** Self risk Section**/
+	.self-risk .self-risk-thumb img {
+		min-height: 386px;
+	}
+
+	/** Self risk Section**/
+
+}
+
+
+/****  About Page Responsive For Desktop Css End Here ****/
+/****  About Page Css End Here ****/

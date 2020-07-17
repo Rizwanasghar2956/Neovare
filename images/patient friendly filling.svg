@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="198" viewBox="0 0 278 198">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2fe0e0;
+      }
+
+      .cls-2 {
+        fill: #a0e583;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 20px;
+        font-family: Gilroy-Light, Gilroy;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        filter: url(#Rectangle_169);
+      }
+    </style>
+    <filter id="Rectangle_169" x="0" y="0" width="278" height="198" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_91" data-name="Group 91" transform="translate(-269 -1016)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 269, 1016)">
+      <rect id="Rectangle_169-2" data-name="Rectangle 169" class="cls-1" width="260" height="180" rx="5" transform="translate(9 6)"/>
+    </g>
+    <path id="Rectangle_173" data-name="Rectangle 173" class="cls-2" d="M5,0H255a5,5,0,0,1,5,5V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V5A5,5,0,0,1,5,0Z" transform="translate(278 1022)"/>
+    <g id="Group_26" data-name="Group 26" transform="translate(-925.491 1239.697)">
+      <path id="Path_40" data-name="Path 40" class="cls-3" d="M1360.158-182.377l-19.878-10.764a4.939,4.939,0,0,0-3.754-.335,4.985,4.985,0,0,0-2.952,2.345L1322.2-170h-13.6a4.067,4.067,0,0,0-4.111,4.111v34.944a4.067,4.067,0,0,0,4.111,4.111h45.153a4.067,4.067,0,0,0,4.111-4.111v-7.276h.444a2.125,2.125,0,0,0,2.148-2.148v-9.345a2.125,2.125,0,0,0-2.148-2.148h-.444v-8.3a4.2,4.2,0,0,0-2.143-3.6l6.433-11.917.007-.012A4.991,4.991,0,0,0,1360.158-182.377Zm-51.451,18.026v-1.359h11.108l-.747,1.359Zm36.146,17.146v4.319a4.666,4.666,0,0,0,4.661,4.66h3.977v7.091h-44.784v-28.843h44.706v8.112h-3.9A4.666,4.666,0,0,0,1344.854-147.2Zm4.3,4.319V-147.2a.35.35,0,0,1,.365-.365h6.569v5.05h-6.569A.35.35,0,0,1,1349.149-142.886ZM1324-164.272l13.421-24.829a.654.654,0,0,1,.825-.28l1.2.671-13.153,24.438Zm7.15,0L1343.28-186.6l1.1.581-11.729,21.75Zm6.358,0,10.642-19.651,9.9,5.384.095.045a.381.381,0,0,1,.225.237.578.578,0,0,1-.044.467l-7.292,13.519Z"/>
+      <path id="Path_41" data-name="Path 41" class="cls-3" d="M1645.566-79.5l-.639-.32a3.69,3.69,0,0,0-4.881,1.432l-.8,1.521a3.515,3.515,0,0,0-.25,2.772,3.381,3.381,0,0,0,1.769,2.1l.639.32a3.824,3.824,0,0,0,1.679.419,3.759,3.759,0,0,0,3.2-1.854l.8-1.524A3.766,3.766,0,0,0,1645.566-79.5Zm-3.506,4.878-.015-.008a1,1,0,0,1-.312-.387.439.439,0,0,1,.04-.441l.019-.019.807-1.533a.876.876,0,0,1,.643-.391.549.549,0,0,1,.318.061l.612.306a1.065,1.065,0,0,1,.26,1.059l-.787,1.5a.724.724,0,0,1-.947.259Z" transform="translate(-292.567 -99.233)"/>
+    </g>
+    <text id="Patient_friendly_billing" data-name="Patient friendly 
+billing" class="cls-4" transform="translate(318 1126)"><tspan x="8.69" y="18">PATIENT FRIENDLY </tspan><tspan x="55.01" y="41">BILLING</tspan></text>
+  </g>
+</svg>

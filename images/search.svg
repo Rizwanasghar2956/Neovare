@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="114" viewBox="0 0 114 114">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aee378;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <g id="Group_71" data-name="Group 71" transform="translate(-904 -2445)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="57" cy="57" r="57" transform="translate(904 2445)"/>
+    <g id="Icon_feather-search" data-name="Icon feather-search" transform="translate(929.384 2470.901)">
+      <path id="Path_3" data-name="Path 3" class="cls-2" d="M52.543,28.522A24.022,24.022,0,1,1,28.522,4.5,24.022,24.022,0,0,1,52.543,28.522Z"/>
+      <path id="Path_4" data-name="Path 4" class="cls-2" d="M38.037,38.037,24.975,24.975" transform="translate(20.512 20.512)"/>
+    </g>
+  </g>
+</svg>

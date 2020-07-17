@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aee378;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_90" data-name="Group 90" transform="translate(-495 -3621)">
+    <circle id="Ellipse_10" data-name="Ellipse 10" class="cls-1" cx="27" cy="27" r="27" transform="translate(495 3621)"/>
+    <path id="Icon_awesome-arrow-right" data-name="Icon awesome-arrow-right" class="cls-2" d="M9.962,4.177l1.161-1.161a1.25,1.25,0,0,1,1.773,0L23.062,13.177a1.25,1.25,0,0,1,0,1.773L12.9,25.116a1.25,1.25,0,0,1-1.773,0L9.962,23.955a1.257,1.257,0,0,1,.021-1.794l6.3-6H1.255A1.252,1.252,0,0,1,0,14.9V13.229a1.252,1.252,0,0,1,1.255-1.255h15.03l-6.3-6A1.247,1.247,0,0,1,9.962,4.177Z" transform="translate(510.285 3634.161)"/>
+  </g>
+</svg>
